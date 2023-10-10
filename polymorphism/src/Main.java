@@ -54,7 +54,7 @@ class CAT extends Animal {
 // interface didn't have constructor
 // interface's field default be public static final
 interface Edible {
-    public String howtoEat();
+    String howtoEat();
 }
 
 class Chicken extends Animal implements Edible {
